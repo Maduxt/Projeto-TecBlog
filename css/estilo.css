@@ -1,0 +1,114 @@
+body {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/* Layout */
+
+#cabecalho {
+    background-color: orange;
+    padding: 15px;
+    text-align: center;
+}
+
+#menu {
+    padding: 10px;
+    color: white;
+}
+
+#principal {
+    width: 920px;
+    margin: auto;
+}
+
+#postagens {
+    width: 660px;
+    float: left;
+}
+
+.postagem-geral {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#menu-lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.9em;
+}
+
+#rodape { 
+    clear: both;
+    background-color: lightyellow;
+    text-align: center;
+    padding: 15px;
+}
+
+/* formatação dos links */
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: orange;
+    padding: 8px 12px;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: orangered;
+    background-color: white;
+    text-decoration: underline;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#cabecalho a:hover {
+    color: orange;
+    background-color: white;
+    text-decoration: none;
+}
+
+/* formatação geral */
+
+h1 {
+    color: grey ;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: orange;
+}
+
+h3 {
+    color: white;
+    background-color: #ffbc40;
+    padding: 5px;
+}
+
+.branco {
+    color: white;
+}
+
+.data-postagem {
+    font-size: 0.9em;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
